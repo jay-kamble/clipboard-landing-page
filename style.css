@@ -380,8 +380,9 @@ a {
         flex-wrap: wrap;
         margin-top: 5px;
         margin-bottom: 5px;
-        text-align: center;  
-        padding: 0 50% ;
+        width: 200%; /* Allow buttons to fill most of the screen width */
+        max-width: none;  
+        
     }
 
     .section-heading {

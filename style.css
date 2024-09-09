@@ -54,6 +54,8 @@ a {
     transition: background-color 0.3s;
 }
 
+
+
 .buttons button:hover {
 
     opacity: 80%;
@@ -87,8 +89,8 @@ a {
 
 
 
-.buttons .ios .button-text,
-.buttons .mac .button-text {
+.buttons .ios ,
+.buttons .mac {
     color: var(--white);
     font-size: 18px;
     font-weight: 600;

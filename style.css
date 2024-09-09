@@ -90,7 +90,7 @@ a {
 .buttons .ios .button-text,
 .buttons .mac .button-text {
     color: var(--white);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
 }
 
@@ -372,6 +372,8 @@ a {
         justify-content: center;
         align-items: center;
         text-align: center;
+        border: none;
+        outline: none;
     }
 
     .buttons .ios,
@@ -380,24 +382,26 @@ a {
         flex-wrap: wrap;
         margin-top: 5px;
         margin-bottom: 5px;
-        width: 200%; /* Allow buttons to fill most of the screen width */
-        max-width: none;  
-        
+        width: 170%;
+        max-width: none;
+
     }
 
     .section-heading {
         font-size: 24px;
-        /* margin-top: 70px; */
     }
 
     .section-content {
         font-size: 15px;
         line-height: 22px;
-
     }
 
     .workflow-tools {
-        margin-top: 50px;
+        margin-top: 0px;
+    }
+
+    .workflow {
+        padding-top: 100px;
     }
 
     .workflow-tools .tool-1,
@@ -416,6 +420,9 @@ a {
 
     .snippet-bottom .snippet-side-content {
         text-align: center;
+        padding-top: 50px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 
     .snippet-bottom .snippet-img img {
@@ -442,8 +449,8 @@ a {
         align-items: center;
         flex-direction: column;
         justify-content: center;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding: 5px;
+        line-height: 2;
     }
 
     .advertising {
@@ -499,10 +506,18 @@ a {
         padding-bottom: 20px;
     }
 
+    .clipboard-footer .right-side {
+
+        padding-right: 20px;
+
+    }
+
     .clipboard-footer .right-side .facebook,
     .clipboard-footer .right-side .twitter,
     .clipboard-footer .right-side .instagram {
         padding-top: 10px;
+        justify-content: center;
+        align-items: center;
     }
 
 }
